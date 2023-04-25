@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: blockchain-certificate.netlify.app
+Token: cd422f694b17924400e6c98e60fa21145e48e65d1b15b16d88b1b1389ddac1b3
