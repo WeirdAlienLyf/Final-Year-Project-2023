@@ -58,11 +58,11 @@ function App() {
     var address = e.target.elements[0].value;
     
     if((contractAddresses.indexOf(address) > -1) === true){
-      alert("Authentic Certificate");
+      alert("Land register is authentic - verification is a success ");
       
     }
     else {
-      alert("Abnormal/Unauthorized Certificate");
+      alert("Abnormal/Unauthorized Land register");
     
     }
   };
@@ -102,12 +102,12 @@ function App() {
             className="form-inline"
             onSubmit={(e) => getDeployedContracts(e)}
           >
-            <input type="text" className="form-control" placeholder="Name" />
+            <input type="text" className="form-control" placeholder="Land ID " />
 
             <input
               type="text"
               className="form-control"
-              placeholder="Serial Number"
+              placeholder="Aadhar Number"
             />
 
             <br />
@@ -119,11 +119,8 @@ function App() {
             </p>
 
             <select name="grade" id="grade">
-              <option value="Distinction">Distinction</option>
-              <option value="First Class">First Class</option>
-              <option value="Second Class">Second Class</option>
-              <option value="Pass">Pass</option>
-              <option value="Failed">Failed</option>
+              <option value="Single Ownership">Single Ownership</option>
+              <option value="Multi Ownership">Multi Ownership</option>
             </select>
 
             <input type="date" className="form-control" placeholder="Date" />
@@ -141,24 +138,20 @@ function App() {
             <h3>Owner Address : </h3> {owner}
           </p>
           <p>
-            <h4>Name :</h4>
+            <h4>Land ID :</h4>
             {name}
           </p>
           <p>
-            <h4>Serial Number :</h4>
+            <h4>Aadhar number :</h4>
             {sr_number}
           </p>
           <p>
-            <h4>Branch :</h4>
+            <h4>Land type :</h4>
             {branch}
           </p>
           <p>
-            <h4>Date of Graduation :</h4>
+            <h4>Date of registry :</h4>
             {date}
-          </p>
-          <p>
-            <h4>Grade :</h4>
-            {grade}
           </p>
 
         </div>
