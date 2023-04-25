@@ -97,7 +97,7 @@ function App() {
         </div>
 
         <div className="col-sm-6">
-          <h2>Certificate Embedment </h2>
+          <h2>Land Registry Embedment </h2>
           <form
             className="form-inline"
             onSubmit={(e) => getDeployedContracts(e)}
@@ -113,10 +113,8 @@ function App() {
             <br />
             <p>
               <select name="branch" id="branch">
-                <option value="CSE">CSE</option>
-                <option value="ECE">ECE</option>
-                <option value="EEE">EEE</option>
-                <option value="MEC">MEC</option>
+                <option value="A Khata">A Khata</option>
+                <option value="B Khata">B Khata</option>
               </select>
             </p>
 
