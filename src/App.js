@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import getBlockchain from "./ethereum.js";
+import "./index.css";
 
 function App() {
   const [factoryContract, setFactoryContract] = useState(undefined);
